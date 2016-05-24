@@ -73,7 +73,9 @@ h1 {
 .menu ol li,
 .menu ol li p {
 	padding: 0;
-	margin: 1px 1px 1px 1px;
+	margin:0;
+	font-size: 1.1em;
+	line-height: 1.1em;
 }
 
 .menu ol:after {
@@ -90,11 +92,11 @@ h1 {
 .menu ol li p a:link,
 .menu ol li p a:visited {
 	color: #527bbd;
-	font-size: 1.1em;
 	text-decoration: none;
 	display: block;
 	padding: 2px 4px;
 	border-radius: 3px 3px 3px 3px;
+	margin: 1px 1px 1px 1px;
 }
 
 .menu ol li p a:hover,
